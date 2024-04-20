@@ -1,0 +1,164 @@
+/* varables */
+:root {
+  --primary-crl: #8cc5f3;
+  --secondary-crl-red: #e61b1b;
+  --crl-white: #ffffff;
+  --crl-black: #000000;
+  --crl-dark-footer: #4e4949;
+  --crl-text-footer: #878484;
+
+  --crl-icon-footer: #f8f5f5;
+}
+
+/* general styles  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 5vh 0;
+}
+
+img {
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+
+/* the header part */
+
+header {
+  height: 25hv;
+  padding: 0 10vw;
+}
+section {
+  padding: 0 10vw;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 6rem;
+  align-items: center;
+}
+.logo-part {
+}
+.text-nav {
+  flex: 1;
+  /* padding: 0 6rem; */
+}
+.small-header {
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+.detail-title {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0 10rem;
+  text-align: center;
+  background-color: var(--primary-crl);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+.nav-part {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+select,
+.special {
+  border: 0;
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 6px;
+  /* background-color: var(--primary-crl); */
+}
+.ecole {
+  background-color: var(--primary-crl);
+}
+.special {
+  border: 1px solid black;
+}
+.path {
+  margin: 1.5rem 0;
+}
+.next-icon {
+  font-size: 1rem;
+}
+.project {
+  color: var(--primary-crl);
+}
+h1,
+h2 {
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+.page-header {
+  text-align: center;
+}
+.section-title {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.sectionbody {
+  display: flex;
+  align-items: center;
+  gap: 0 3rem;
+}
+.text-part {
+  width: 45vw;
+}
+.icon-and-text {
+  display: flex;
+  gap: 0 0.5rem;
+  align-items: baseline;
+}
+.icon-and-text p {
+  margin: 0.3rem 0;
+}
+.icon-and-text i {
+  font-size: 0.9rem;
+}
+.left .icon-and-text i {
+  color: var(--primary-crl);
+}
+.right .icon-and-text i {
+  color: var(--secondary-crl-red);
+}
+.h-right {
+  text-align: right;
+}
+/* the footer */
+footer {
+  padding: 10vh 10vw;
+  background-color: var(--crl-dark-footer);
+  color: var(--crl-text-footer);
+}
+footer i {
+  color: var(--crl-icon-footer);
+}
+.footer-logo {
+  width: 15vw;
+}
+.main-footer {
+  display: flex;
+  gap: 0 2rem;
+}
+.footer-h2 {
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+.contact-item {
+  display: flex;
+  gap: 0.7rem;
+  align-items: baseline;
+}
+.contact-item p {
+  margin: 0.7rem 0;
+}
+.copyright {
+  text-align: center;
+}
